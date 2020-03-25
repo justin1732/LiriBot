@@ -1,9 +1,12 @@
 require("dotenv").config();
 var keys = require("./keys.js");
+var axios = require("axios");
+var moment= require("moment");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify); 
-var filename = './log.txt';
+var filename = 'log.txt';
 var request = require("request");
+var fs = require ("fs");
 var log = require('simple-node-logger').createSimpleFileLogger(filename);
 log.setLevel('all');
 var userCommand = process.argv[2];
@@ -50,7 +53,7 @@ spotify.search(
 
  
         switch (userCommand) {
-                
+           
             case "spotify-this-song":
                 getSpotify();
                 break;
@@ -61,6 +64,10 @@ spotify.search(
     
             case "do-what-it-says":
                 doWhat();
+                break;
+                
+            case "concert-this":
+                getConcert();
                 break;
         }
     }
@@ -93,18 +100,35 @@ spotify.search(
             if (movieName === "Mr. Nobody") {
                 console.log("-----------------------");
                 console.log("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
-                console.log("It's on Netflix!");
+                console.log("It's on Netflix!")
+                console.log ("It stars the one and only Rich Hosek!");
             }
         });
     }
-    function doWhat() {
+function getConcert(search) {
+    let concertQueryURL = "https://rest.bandsintown.com/artists/" + secondCommand + "/events?app_id=codingbootcamp"
+    axios.get(concertQueryURL).then(
+      function(response) {
+        for (let i = 0; i < 10; i++) {
+          console.log("--------------------------------------------------------------------------------");
+          console.log("Venue: " + response.data[i].venue.name);
+          console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
+          console.log("Date: " + moment(response.data[i].datetime).format("MM/DD/YYYY"));
+        }
+      })
+      .catch(function(error) {
+     console.log(error);
+    });
+  }
+
+    function logIt(dataToLog) {
+
+        console.log(dataToLog);
     
-        fs.readFile("random.txt", "utf8", function (error, data) {
-            if (!error);
-            console.log(data.toString());
-           
-            var cmds = data.toString().split(',');
+        fs.appendFile('log.txt', dataToLog + '\n', function(err) {
+            
+            if (err) return logIt('Error logging data to file: ' + err);	
         });
     }
-
     mySwitch(userCommand);
+    logIt(mySwitch);
