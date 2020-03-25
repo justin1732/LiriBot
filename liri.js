@@ -23,7 +23,7 @@ var getSpotify = function (songName) {
 spotify.search(
         {
             type: "track",
-            query: userCommand
+            query: secondCommand
         },
         function (err, data) {
             if (err) {
@@ -65,15 +65,15 @@ spotify.search(
         }
     }
     function getMovie() {
-                var movieName = secondCommand;
+            var movieName = secondCommand;
                var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&tomatoes=true&apikey=trilogy";
 
         request(queryUrl, function (error, response, body) {
 
             if (!error && response.statusCode === 200) {
                 var body = JSON.parse(body);
-
-                              logOutput('================ Movie Info ================');
+                
+                logOutput('================ Movie Info ================');
                 logOutput("Title: " + body.Title);
                 logOutput("Release Year: " + body.Year);
                 logOutput("IMdB Rating: " + body.imdbRating);

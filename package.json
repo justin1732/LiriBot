@@ -6,8 +6,11 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "inquirer": "^7.1.0",
+    "json": "^9.0.6",
     "log": "^6.0.0",
     "node-spotify-api": "^1.1.1",
+    "omdb": "^0.8.0",
+    "output": "0.0.0",
     "request": "^2.88.2",
     "simple-node-logger": "^18.12.24"
   },
