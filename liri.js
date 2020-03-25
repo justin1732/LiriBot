@@ -14,6 +14,7 @@ var secondCommand = process.argv[3];
 for (var i = 4; i < process.argv.length; i++) {
     secondCommand += '+' + process.argv[i];
 }
+
 var getArtistNames = function (artist) {
     return artist.name;
 };
@@ -110,7 +111,7 @@ spotify.search(
             }
         });
     }
-function getConcert(search) {
+function getConcert() {
     let concertQueryURL = "https://rest.bandsintown.com/artists/" + secondCommand + "/events?app_id=codingbootcamp"
     axios.get(concertQueryURL).then(
       function(response) {
@@ -125,7 +126,33 @@ function getConcert(search) {
      console.log(error);
     });
   }
+  function doWhat() {
+    fs.readFile("random.txt", "utf8", function (err, data) {
+        if (err) throw err;
+        
+      dataArr = data.split(",");
+      var action = dataArr[0];
+      var value = dataArr[1]
+      
+           switch (action) {
+           case "spotify-this-song":
+            getSpotify(value)
+            break;
 
+        case "movie-this":
+            getMovie(value)
+            break;
+                 
+        case "concert-this":
+            getConcert (value)
+            break;
+            
+      default:
+    console.log("\nI'm sorry, that's not something I recognize, try one of the following commands: \n\n  1. For a random search: node liri.js do-what-it-says \n\n  2. To search a movie title: node liri.js movie-this \n\n  3. To search Spotify for a song: node liri.js spotify-this-song \n\n  4. Check out Concerts Using 'concert-this'\n");
+    break;
+    //  }
+   } 
+   )};  
     function logIt(dataToLog) {
 
         console.log(dataToLog);
