@@ -73,17 +73,17 @@ spotify.search(
             if (!error && response.statusCode === 200) {
                 var body = JSON.parse(body);
                 
-                logOutput('================ Movie Info ================');
-                logOutput("Title: " + body.Title);
-                logOutput("Release Year: " + body.Year);
-                logOutput("IMdB Rating: " + body.imdbRating);
-                logOutput("Country: " + body.Country);
-                logOutput("Language: " + body.Language);
-                logOutput("Plot: " + body.Plot);
-                logOutput("Actors: " + body.Actors);
-                logOutput("Rotten Tomatoes Rating: " + body.Ratings[2].Value);
-                logOutput("Rotten Tomatoes URL: " + body.tomatoURL);
-                logOutput('==================THE END=================');
+                console.log('================ Movie Info ================');
+                console.log("Title: " + body.Title);
+                console.log("Release Year: " + body.Year);
+                console.log("IMdB Rating: " + body.imdbRating);
+                console.log("Country: " + body.Country);
+                console.log("Language: " + body.Language);
+                console.log("Plot: " + body.Plot);
+                console.log("Actors: " + body.Actors);
+                console.log("Rotten Tomatoes Rating: " + body.Ratings[2]);
+                console.log("Rotten Tomatoes URL: " + body.tomatoURL);
+                console.log('==================THE END=================');
 
             } else {
                 //else - throw error
