@@ -37,12 +37,13 @@ spotify.search(
             var songs = data.tracks.items;
 
             for (var i = 0; i < songs.length; i++) {
-                console.log(i);
-                console.log("artist(s): " + songs[i].artists.map(getArtistNames));
-                console.log("song name: " + songs[i].name);
-                console.log("preview song: " + songs[i].preview_url);
-                console.log("album: " + songs[i].album.name);
-                console.log("-----------------------------------");
+                logIt(i);
+                logIt("artist(s): " + songs[i].artists.map(getArtistNames));
+                logIt("song name: " + songs[i].name);
+                logIt("preview song: " + songs[i].preview_url);
+                logIt("album: " + songs[i].album.name);
+                logIt("-----------------------------------");
+                
             }
         
         }
@@ -69,6 +70,10 @@ spotify.search(
             case "concert-this":
                 getConcert();
                 break;
+                
+          default:
+        console.log("\nI'm sorry, that's not something I recognize, try one of the following commands: \n\n  1. For a random search: node liri.js do-what-it-says \n\n  2. To search a movie title: node liri.js movie-this \n\n  3. To search Spotify for a song: node liri.js spotify-this-song \n\n  4. Check out Concerts Using 'concert-this'\n");
+        break;
         }
     }
     function getMovie() {
@@ -80,28 +85,28 @@ spotify.search(
             if (!error && response.statusCode === 200) {
                 var body = JSON.parse(body);
                 
-                console.log('================ Movie Info ================');
-                console.log("Title: " + body.Title);
-                console.log("Release Year: " + body.Year);
-                console.log("IMdB Rating: " + body.imdbRating);
-                console.log("Country: " + body.Country);
-                console.log("Language: " + body.Language);
-                console.log("Plot: " + body.Plot);
-                console.log("Actors: " + body.Actors);
-                console.log("Rotten Tomatoes Rating: " + body.Ratings[2]);
-                console.log("Rotten Tomatoes URL: " + body.tomatoURL);
-                console.log('==================THE END=================');
+                logIt('================ Movie Info ================');
+                logIt("Title: " + body.Title);
+                logIt("Release Year: " + body.Year);
+                logIt("IMdB Rating: " + body.imdbRating);
+                logIt("Country: " + body.Country);
+                logIt("Language: " + body.Language);
+                logIt("Plot: " + body.Plot);
+                logIt("Actors: " + body.Actors);
+                logIt("Rotten Tomatoes Rating: " + body.Ratings[2]);
+                logIt("Rotten Tomatoes URL: " + body.tomatoURL);
+                logIt('==================THE END=================');
 
             } else {
                 //else - throw error
-                console.log("Error occurred.")
+                logIt("Error occurred.")
             }
         
             if (movieName === "Mr. Nobody") {
-                console.log("-----------------------");
-                console.log("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
-                console.log("It's on Netflix!")
-                console.log ("It stars the one and only Rich Hosek!");
+                logIt("-----------------------");
+                logIt("If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/");
+                logIt("It's on Netflix!")
+                logIt("It stars the one and only Rich Hosek!");
             }
         });
     }
@@ -110,10 +115,10 @@ function getConcert(search) {
     axios.get(concertQueryURL).then(
       function(response) {
         for (let i = 0; i < 10; i++) {
-          console.log("--------------------------------------------------------------------------------");
-          console.log("Venue: " + response.data[i].venue.name);
-          console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
-          console.log("Date: " + moment(response.data[i].datetime).format("MM/DD/YYYY"));
+          logIt("--------------------------------------------------------------------------------");
+          logIt("Venue: " + response.data[i].venue.name);
+          logIt("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
+          logIt("Date: " + moment(response.data[i].datetime).format("MM/DD/YYYY"));
         }
       })
       .catch(function(error) {
@@ -131,4 +136,4 @@ function getConcert(search) {
         });
     }
     mySwitch(userCommand);
-    logIt(mySwitch);
+    

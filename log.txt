@@ -1,212 +1,171 @@
-function getConcert (){
-    var artistName = secondCommand
-    var queryUrl = "https://rest.bandsintown.com/artists/"+artistName+"/events?app_id=codecademy";
-
-    request(queryUrl, function(error, response, body) {
-    
-      if (!error && response.statusCode === 200) {
-    
-        var JS = JSON.parse(body);
-        for (i = 0; i < JS.length; i++)
-        {
-          var dTime = JS[i].datetime;
-            var month = dTime.substring(5,7);
-            var year = dTime.substring(0,4);
-            var day = dTime.substring(8,10);
-            var dateForm = month + "/" + day + "/" + year
-      
-          logIt("\n---------------------------------------------------\n");
-    
-            
-          logIt("Date: " + dateForm);
-          logIt("Name: " + JS[i].venue.name);
-          logIt("City: " + JS[i].venue.city);
-          if (JS[i].venue.region !== "")
-          {
-            logIt("Country: " + JS[i].venue.region);
-          }
-          logIt("Country: " + JS[i].venue.country);
-          logIt("\n---------------------------------------------------\n");
-    
-        }
-      }
-    });
-}
-function getConcert (){
-    var artistName = secondCommand
-    var queryUrl = "https://rest.bandsintown.com/artists/"+artistName+"/events?app_id=codecademy";
-
-    request(queryUrl, function(error, response, body) {
-    
-      if (!error && response.statusCode === 200) {
-    
-        var JS = JSON.parse(body);
-        for (i = 0; i < JS.length; i++)
-        {
-          var dTime = JS[i].datetime;
-            var month = dTime.substring(5,7);
-            var year = dTime.substring(0,4);
-            var day = dTime.substring(8,10);
-            var dateForm = month + "/" + day + "/" + year
-      
-          console.log("\n---------------------------------------------------\n");
-    
-            
-          console.log("Date: " + dateForm);
-          console.log("Name: " + JS[i].venue.name);
-          console.log("City: " + JS[i].venue.city);
-          if (JS[i].venue.region !== "")
-          {
-            console.log("Country: " + JS[i].venue.region);
-          }
-          console.log("Country: " + JS[i].venue.country);
-          console.log("\n---------------------------------------------------\n");
-    
-        }
-      }
-    });
-}
-function getConcert (){
-    var artistName = secondCommand
-    var queryUrl = "https://rest.bandsintown.com/artists/"+artistName+"/events?app_id=codecademy";
-
-    request(queryUrl, function(error, response, body) {
-    
-      if (!error && response.statusCode === 200) {
-    
-        var JS = JSON.parse(body);
-        for (i = 0; i < JS.length; i++)
-        {
-          var dTime = JS[i].datetime;
-            var month = dTime.substring(5,7);
-            var year = dTime.substring(0,4);
-            var day = dTime.substring(8,10);
-            var dateForm = month + "/" + day + "/" + year
-      
-          console.log("\n---------------------------------------------------\n");
-    
-            
-          console.log("Date: " + dateForm);
-          console.log("Name: " + JS[i].venue.name);
-          console.log("City: " + JS[i].venue.city);
-          if (JS[i].venue.region !== "")
-          {
-            console.log("Country: " + JS[i].venue.region);
-          }
-          console.log("Country: " + JS[i].venue.country);
-          console.log("\n---------------------------------------------------\n");
-    
-        }
-      }
-    });
-}
-function mySwitch(userCommand) {
-
- 
-        switch (userCommand) {
-           
-            case "spotify-this-song":
-                getSpotify();
-                break;
-    
-            case "movie-this":
-                getMovie();
-                break;
-    
-            case "do-what-it-says":
-                doWhat();
-                break;
-                
-            case "concert-this":
-                getConcert();
-                break;
-        }
-    }
-function mySwitch(userCommand) {
-
- 
-        switch (userCommand) {
-           
-            case "spotify-this-song":
-                getSpotify();
-                break;
-    
-            case "movie-this":
-                getMovie();
-                break;
-    
-            case "do-what-it-says":
-                doWhat();
-                break;
-                
-            case "concert-this":
-                getConcert();
-                break;
-        }
-    }
-function mySwitch(userCommand) {
-
- 
-        switch (userCommand) {
-           
-            case "spotify-this-song":
-                getSpotify();
-                break;
-    
-            case "movie-this":
-                getMovie();
-                break;
-    
-            case "do-what-it-says":
-                doWhat();
-                break;
-                
-            case "concert-this":
-                getConcert();
-                break;
-        }
-    }
-function mySwitch(userCommand) {
-
- 
-        switch (userCommand) {
-           
-            case "spotify-this-song":
-                getSpotify();
-                break;
-    
-            case "movie-this":
-                getMovie();
-                break;
-    
-            case "do-what-it-says":
-                doWhat();
-                break;
-                
-            case "concert-this":
-                getConcert();
-                break;
-        }
-    }
-function mySwitch(userCommand) {
-
- 
-        switch (userCommand) {
-           
-            case "spotify-this-song":
-                getSpotify();
-                break;
-    
-            case "movie-this":
-                getMovie();
-                break;
-    
-            case "do-what-it-says":
-                doWhat();
-                break;
-                
-            case "concert-this":
-                getConcert();
-                break;
-        }
-    }
+--------------------------------------------------------------------------------
+Location: Bethlehem, United States
+--------------------------------------------------------------------------------
+Venue: Wind Creek Bethlehem
+Location: Gilford, United States
+Venue: Bank of New Hampshire Pavilion
+Date: 07/17/2020
+Location: Syracuse, United States
+Date: 07/18/2020
+Date: 07/19/2020
+--------------------------------------------------------------------------------
+Venue: St. Joseph’s Health Amphitheater at Lakeview
+--------------------------------------------------------------------------------
+Location: Camden, United States
+Venue: BB&T Pavilion
+Date: 07/21/2020
+--------------------------------------------------------------------------------
+Location: Wantagh, United States
+Venue: Northwell Health at Jones Beach Theater
+Date: 07/22/2020
+--------------------------------------------------------------------------------
+Location: Saratoga Springs, United States
+Venue: Saratoga Performing Arts Center
+Date: 07/24/2020
+--------------------------------------------------------------------------------
+Venue: Xfinity Center
+Location: Mansfield, United States
+--------------------------------------------------------------------------------
+Venue: Mohegan Sun Arena
+Date: 07/25/2020
+Location: Uncasville, United States
+--------------------------------------------------------------------------------
+Date: 07/26/2020
+Venue: PNC Bank Arts Center
+Location: Holmdel, United States
+Date: 07/28/2020
+--------------------------------------------------------------------------------
+Venue: Jiffy Lube Live
+Location: Bristow, United States
+Date: 07/29/2020
+================ Movie Info ================
+Title: Bob
+Release Year: 1992–1993
+IMdB Rating: 7.5
+Country: USA
+Language: English
+Plot: A cartoonist deals with corporate drama that ensues after the revival of a super hero he created.
+Actors: Bob Newhart, Carlene Watkins, Cynthia Stevenson, Ruth Kobart
+Rotten Tomatoes Rating: undefined
+Rotten Tomatoes URL: N/A
+==================THE END=================
+0
+artist(s): J. Cole
+preview song: null
+song name: Work Out
+album: Cole World: The Sideline Story
+-----------------------------------
+1
+artist(s): Rihanna,Drake
+song name: Work
+preview song: null
+album: ANTI (Deluxe)
+-----------------------------------
+2
+artist(s): Fifth Harmony,Ty Dolla $ign
+song name: Work from Home (feat. Ty Dolla $ign)
+preview song: https://p.scdn.co/mp3-preview/b2d6e6ea9163eb361f5406f75264de490243964a?cid=5983e6e7ba17419cac1a0dde655da377
+album: 7/27 (Deluxe)
+-----------------------------------
+3
+artist(s): Ashnikko
+song name: Working Bitch
+preview song: https://p.scdn.co/mp3-preview/eed67c3d4377605a196ca370561e4b45551c0ccf?cid=5983e6e7ba17419cac1a0dde655da377
+album: Hi, It's Me
+-----------------------------------
+4
+artist(s): Hozier
+song name: Work Song
+preview song: https://p.scdn.co/mp3-preview/933336edfd735e25178c8eda961f0ea5604bce04?cid=5983e6e7ba17419cac1a0dde655da377
+album: Hozier (Expanded Edition)
+-----------------------------------
+5
+artist(s): A$AP Ferg,A$AP Rocky,French Montana,Trinidad James,ScHoolboy Q
+song name: Work REMIX (feat. A$AP Rocky, French Montana, Trinidad James & ScHoolboy Q)
+preview song: https://p.scdn.co/mp3-preview/0255172e91edc745416b611a7d77966c6fc9c6eb?cid=5983e6e7ba17419cac1a0dde655da377
+album: Trap Lord
+-----------------------------------
+6
+artist(s): Missy Elliott
+song name: Work It
+preview song: https://p.scdn.co/mp3-preview/a007b4cabe8441d6d878da45bc3b71471848101e?cid=5983e6e7ba17419cac1a0dde655da377
+album: Under Construction
+-----------------------------------
+7
+artist(s): Colt Ford
+song name: Workin' on
+preview song: https://p.scdn.co/mp3-preview/0805a9f57265f0abf90890f2fd3c2e45db384069?cid=5983e6e7ba17419cac1a0dde655da377
+album: Thanks for Listening
+-----------------------------------
+8
+artist(s): Loverboy
+song name: Working for the Weekend
+preview song: https://p.scdn.co/mp3-preview/3fb4df4d5c847e68185ab29628e1a09006fe8e01?cid=5983e6e7ba17419cac1a0dde655da377
+album: Get Lucky
+-----------------------------------
+9
+artist(s): Britney Spears
+song name: Work Bitch
+preview song: https://p.scdn.co/mp3-preview/099a16ea80fddbd592595592c4587da4d0a923d2?cid=5983e6e7ba17419cac1a0dde655da377
+album: Britney Jean (Deluxe Version)
+-----------------------------------
+10
+artist(s): Quavo
+song name: WORKIN ME
+preview song: null
+album: QUAVO HUNCHO
+-----------------------------------
+11
+artist(s): Charlotte Day Wilson
+song name: Work
+preview song: https://p.scdn.co/mp3-preview/5b8fe4cb8f7edf09fb77dd4c6d6c5941c9523610?cid=5983e6e7ba17419cac1a0dde655da377
+album: Work
+-----------------------------------
+12
+artist(s): JID
+song name: Workin Out
+preview song: null
+album: DiCaprio 2
+-----------------------------------
+13
+artist(s): Wiz Khalifa
+song name: Work Hard, Play Hard
+preview song: https://p.scdn.co/mp3-preview/09c4e00ef5ad7d7a41cccdc464c0c3707557dac6?cid=5983e6e7ba17419cac1a0dde655da377
+album: O.N.I.F.C. (Deluxe)
+-----------------------------------
+14
+artist(s): Rush
+song name: Working Man
+preview song: null
+album: Rush
+-----------------------------------
+15
+artist(s): Kane Brown
+song name: Work
+preview song: https://p.scdn.co/mp3-preview/a90887942336e7fe762f831bae5f9e88e1a5793d?cid=5983e6e7ba17419cac1a0dde655da377
+album: Experiment
+-----------------------------------
+16
+artist(s): Gang Starr
+song name: Work
+preview song: null
+album: Moment Of Truth
+-----------------------------------
+17
+artist(s): ZHU,Skrillex,THEY.
+song name: Working For It - Bonus Track
+preview song: https://p.scdn.co/mp3-preview/5e72c47c060e697fb2939217a110c72de5388e70?cid=5983e6e7ba17419cac1a0dde655da377
+album: GENERATIONWHY
+-----------------------------------
+song name: Work
+18
+artist(s): Iggy Azalea
+preview song: null
+album: The New Classic
+-----------------------------------
+19
+artist(s): Kirko Bangz,Jacquees,Tory Lanez
+song name: Work Sumn (feat. Tory Lanez and Jacquees)
+preview song: https://p.scdn.co/mp3-preview/310445073d7ba3b26f6f3755b027a9c1e9105264?cid=5983e6e7ba17419cac1a0dde655da377
+album: Work Sumn (feat. Tory Lanez and Jacquees)
+-----------------------------------
