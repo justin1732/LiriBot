@@ -624,3 +624,390 @@ Venue: Jiffy Lube Live
 Location: Bristow, United States
 Date: 07/29/2020
 --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Venue: Wind Creek Bethlehem
+Date: 07/17/2020
+Location: Bethlehem, United States
+--------------------------------------------------------------------------------
+Venue: Bank of New Hampshire Pavilion
+Location: Gilford, United States
+Date: 07/18/2020
+--------------------------------------------------------------------------------
+Venue: St. Joseph’s Health Amphitheater at Lakeview
+Location: Syracuse, United States
+Date: 07/19/2020
+--------------------------------------------------------------------------------
+Venue: BB&T Pavilion
+Location: Camden, United States
+Date: 07/21/2020
+--------------------------------------------------------------------------------
+Venue: Northwell Health at Jones Beach Theater
+Location: Wantagh, United States
+Date: 07/22/2020
+--------------------------------------------------------------------------------
+Venue: Saratoga Performing Arts Center
+Location: Saratoga Springs, United States
+Date: 07/24/2020
+--------------------------------------------------------------------------------
+Venue: Xfinity Center
+Location: Mansfield, United States
+Date: 07/25/2020
+--------------------------------------------------------------------------------
+Venue: Mohegan Sun Arena
+Location: Uncasville, United States
+Date: 07/26/2020
+--------------------------------------------------------------------------------
+Location: Holmdel, United States
+Venue: PNC Bank Arts Center
+Date: 07/28/2020
+--------------------------------------------------------------------------------
+Venue: Jiffy Lube Live
+Location: Bristow, United States
+Date: 07/29/2020
+0
+artist(s): J. Cole
+song name: Work Out
+preview song: null
+album: Cole World: The Sideline Story
+-----------------------------------
+1
+artist(s): Rihanna,Drake
+song name: Work
+preview song: null
+album: ANTI (Deluxe)
+-----------------------------------
+2
+artist(s): Fifth Harmony,Ty Dolla $ign
+song name: Work from Home (feat. Ty Dolla $ign)
+preview song: https://p.scdn.co/mp3-preview/b2d6e6ea9163eb361f5406f75264de490243964a?cid=5983e6e7ba17419cac1a0dde655da377
+album: 7/27 (Deluxe)
+-----------------------------------
+3
+artist(s): Ashnikko
+song name: Working Bitch
+preview song: https://p.scdn.co/mp3-preview/eed67c3d4377605a196ca370561e4b45551c0ccf?cid=5983e6e7ba17419cac1a0dde655da377
+album: Hi, It's Me
+-----------------------------------
+4
+artist(s): Hozier
+song name: Work Song
+preview song: https://p.scdn.co/mp3-preview/933336edfd735e25178c8eda961f0ea5604bce04?cid=5983e6e7ba17419cac1a0dde655da377
+album: Hozier (Expanded Edition)
+-----------------------------------
+5
+artist(s): A$AP Ferg,A$AP Rocky,French Montana,Trinidad James,ScHoolboy Q
+song name: Work REMIX (feat. A$AP Rocky, French Montana, Trinidad James & ScHoolboy Q)
+preview song: https://p.scdn.co/mp3-preview/0255172e91edc745416b611a7d77966c6fc9c6eb?cid=5983e6e7ba17419cac1a0dde655da377
+album: Trap Lord
+-----------------------------------
+6
+artist(s): Missy Elliott
+song name: Work It
+preview song: https://p.scdn.co/mp3-preview/a007b4cabe8441d6d878da45bc3b71471848101e?cid=5983e6e7ba17419cac1a0dde655da377
+album: Under Construction
+-----------------------------------
+7
+artist(s): Colt Ford
+song name: Workin' on
+preview song: https://p.scdn.co/mp3-preview/0805a9f57265f0abf90890f2fd3c2e45db384069?cid=5983e6e7ba17419cac1a0dde655da377
+album: Thanks for Listening
+-----------------------------------
+8
+artist(s): Loverboy
+song name: Working for the Weekend
+preview song: https://p.scdn.co/mp3-preview/3fb4df4d5c847e68185ab29628e1a09006fe8e01?cid=5983e6e7ba17419cac1a0dde655da377
+album: Get Lucky
+-----------------------------------
+9
+artist(s): Britney Spears
+song name: Work Bitch
+preview song: https://p.scdn.co/mp3-preview/099a16ea80fddbd592595592c4587da4d0a923d2?cid=5983e6e7ba17419cac1a0dde655da377
+album: Britney Jean (Deluxe Version)
+-----------------------------------
+10
+artist(s): Quavo
+song name: WORKIN ME
+preview song: null
+album: QUAVO HUNCHO
+-----------------------------------
+11
+artist(s): Charlotte Day Wilson
+song name: Work
+preview song: https://p.scdn.co/mp3-preview/5b8fe4cb8f7edf09fb77dd4c6d6c5941c9523610?cid=5983e6e7ba17419cac1a0dde655da377
+album: Work
+-----------------------------------
+12
+artist(s): JID
+song name: Workin Out
+preview song: null
+album: DiCaprio 2
+13
+artist(s): Wiz Khalifa
+-----------------------------------
+song name: Work Hard, Play Hard
+preview song: https://p.scdn.co/mp3-preview/09c4e00ef5ad7d7a41cccdc464c0c3707557dac6?cid=5983e6e7ba17419cac1a0dde655da377
+album: O.N.I.F.C. (Deluxe)
+-----------------------------------
+14
+artist(s): Rush
+song name: Working Man
+-----------------------------------
+preview song: null
+15
+album: Rush
+song name: Work
+artist(s): Kane Brown
+preview song: https://p.scdn.co/mp3-preview/a90887942336e7fe762f831bae5f9e88e1a5793d?cid=5983e6e7ba17419cac1a0dde655da377
+-----------------------------------
+album: Experiment
+16
+artist(s): Gang Starr
+song name: Work
+preview song: null
+album: Moment Of Truth
+17
+-----------------------------------
+song name: Working For It - Bonus Track
+preview song: https://p.scdn.co/mp3-preview/5e72c47c060e697fb2939217a110c72de5388e70?cid=5983e6e7ba17419cac1a0dde655da377
+-----------------------------------
+artist(s): ZHU,Skrillex,THEY.
+18
+album: GENERATIONWHY
+artist(s): Iggy Azalea
+preview song: null
+song name: Work
+album: The New Classic
+-----------------------------------
+song name: Work Sumn (feat. Tory Lanez and Jacquees)
+artist(s): Kirko Bangz,Jacquees,Tory Lanez
+19
+preview song: https://p.scdn.co/mp3-preview/310445073d7ba3b26f6f3755b027a9c1e9105264?cid=5983e6e7ba17419cac1a0dde655da377
+album: Work Sumn (feat. Tory Lanez and Jacquees)
+-----------------------------------
+================ Movie Info ================
+IMdB Rating: 7.5
+Country: USA
+Language: English
+Plot: A cartoonist deals with corporate drama that ensues after the revival of a super hero he created.
+Title: Bob
+Actors: Bob Newhart, Carlene Watkins, Cynthia Stevenson, Ruth Kobart
+Release Year: 1992–1993
+Rotten Tomatoes URL: N/A
+Rotten Tomatoes Rating: undefined
+==================THE END=================
+--------------------------------------------------------------------------------
+Venue: Wind Creek Bethlehem
+Date: 07/17/2020
+Location: Bethlehem, United States
+--------------------------------------------------------------------------------
+Venue: Bank of New Hampshire Pavilion
+Location: Gilford, United States
+Date: 07/18/2020
+--------------------------------------------------------------------------------
+Venue: St. Joseph’s Health Amphitheater at Lakeview
+Location: Syracuse, United States
+Date: 07/19/2020
+--------------------------------------------------------------------------------
+Venue: BB&T Pavilion
+Location: Camden, United States
+Date: 07/21/2020
+--------------------------------------------------------------------------------
+Venue: Northwell Health at Jones Beach Theater
+Location: Wantagh, United States
+Date: 07/22/2020
+--------------------------------------------------------------------------------
+Venue: Saratoga Performing Arts Center
+Location: Saratoga Springs, United States
+Date: 07/24/2020
+--------------------------------------------------------------------------------
+Venue: Xfinity Center
+Location: Mansfield, United States
+Date: 07/25/2020
+--------------------------------------------------------------------------------
+Venue: Mohegan Sun Arena
+Location: Uncasville, United States
+Date: 07/26/2020
+--------------------------------------------------------------------------------
+Venue: PNC Bank Arts Center
+Location: Holmdel, United States
+Date: 07/28/2020
+--------------------------------------------------------------------------------
+Venue: Jiffy Lube Live
+Location: Bristow, United States
+Date: 07/29/2020
+0
+artist(s): 6LACK
+song name: Switch
+preview song: null
+album: East Atlanta Love Letter
+-----------------------------------
+1
+artist(s): Toni Romiti,Bigrod
+preview song: https://p.scdn.co/mp3-preview/34da07988b4a0d8356240950d2223c8b24edb963?cid=5983e6e7ba17419cac1a0dde655da377
+album: Switch Up
+song name: Switch Up
+-----------------------------------
+2
+artist(s): Oliver Malcolm
+song name: Switched Up
+preview song: null
+album: Switched Up
+-----------------------------------
+3
+artist(s): Rittz,Mike Posner
+song name: Switch Lanes
+preview song: https://p.scdn.co/mp3-preview/dc98df8d1061b914ecb1e4f3f68817c2831358fa?cid=5983e6e7ba17419cac1a0dde655da377
+album: The Life and Times of Jonny Valiant
+4
+-----------------------------------
+artist(s): Def Leppard
+song name: Switch 625 - Remastered
+preview song: null
+album: The Early Years
+-----------------------------------
+5
+artist(s): Def Leppard
+song name: Switch 625 - Single Edit
+preview song: null
+album: The Early Years
+-----------------------------------
+6
+artist(s): Denzel Curry
+song name: SWITCH IT UP | ZWITCH 1T UP
+preview song: null
+album: TA13OO
+-----------------------------------
+7
+artist(s): 6LACK,Devault
+song name: Switch - DEVAULT Remix
+preview song: null
+album: Switch (DEVAULT Remix)
+-----------------------------------
+8
+artist(s): Cass McCombs
+song name: Switch
+preview song: https://p.scdn.co/mp3-preview/d0feea85b84ce9f5bae5511a1b33537144ae3a09?cid=5983e6e7ba17419cac1a0dde655da377
+album: Mangy Love
+-----------------------------------
+9
+artist(s): Tyga,The Game
+song name: Switch Lanes
+preview song: null
+album: Hotel California (Deluxe)
+-----------------------------------
+10
+artist(s): Will Smith
+song name: Switch
+preview song: null
+album: Lost And Found
+-----------------------------------
+11
+artist(s): K CAMP
+song name: Switch
+preview song: https://p.scdn.co/mp3-preview/412e45779bd44a63a55fafe9422217a700971d1f?cid=5983e6e7ba17419cac1a0dde655da377
+album: Wayy 2 Kritical
+-----------------------------------
+12
+artist(s): Purple Cloud
+song name: Switch
+preview song: https://p.scdn.co/mp3-preview/3b6e08c35fbf567d846c589863af5fcd2e487713?cid=5983e6e7ba17419cac1a0dde655da377
+album: Switch
+-----------------------------------
+13
+artist(s): Afrojack,Jewelz & Sparks,Emmalyn
+song name: Switch
+preview song: https://p.scdn.co/mp3-preview/d5767d3351a1e73fd37cf54cac970c9da6e65cd1?cid=5983e6e7ba17419cac1a0dde655da377
+album: Switch
+-----------------------------------
+14
+artist(s): DaBaby
+song name: Switch
+preview song: null
+album: Back On My Baby Jesus Sh!t
+-----------------------------------
+15
+artist(s): Lil Pete
+song name: Switch Up
+preview song: https://p.scdn.co/mp3-preview/01d31a8383aac04574b858707d490c1ca97416f6?cid=5983e6e7ba17419cac1a0dde655da377
+album: I Made a Promise
+-----------------------------------
+16
+artist(s): Roy Woods
+song name: Switch
+preview song: https://p.scdn.co/mp3-preview/08a37582d62687606766117304f9777232bcd6b6?cid=5983e6e7ba17419cac1a0dde655da377
+album: Waking at Dawn
+-----------------------------------
+17
+artist(s): Ella Mai
+song name: Switch Sider
+preview song: https://p.scdn.co/mp3-preview/7c5f7297d23723d72249c31e934705f7f00a3b29?cid=5983e6e7ba17419cac1a0dde655da377
+album: Time
+-----------------------------------
+18
+artist(s): Tink
+song name: Switch'd Up
+preview song: https://p.scdn.co/mp3-preview/28bb34116d91d68ac28c76222e4bebb863e11016?cid=5983e6e7ba17419cac1a0dde655da377
+album: Hopeless Romantic
+-----------------------------------
+19
+artist(s): SWACQ
+song name: Switch Back
+preview song: https://p.scdn.co/mp3-preview/98684e3b91f1e7fa714b0059c7eb253f8f2e683a?cid=5983e6e7ba17419cac1a0dde655da377
+album: Switch Back
+-----------------------------------
+--------------------------------------------------------------------------------
+Venue: Wind Creek Bethlehem
+--------------------------------------------------------------------------------
+Date: 07/17/2020
+Location: Bethlehem, United States
+--------------------------------------------------------------------------------
+Venue: Bank of New Hampshire Pavilion
+Location: Gilford, United States
+Date: 07/18/2020
+--------------------------------------------------------------------------------
+Venue: St. Joseph’s Health Amphitheater at Lakeview
+Location: Syracuse, United States
+--------------------------------------------------------------------------------
+Venue: BB&T Pavilion
+Date: 07/19/2020
+Location: Camden, United States
+Date: 07/21/2020
+--------------------------------------------------------------------------------
+Venue: Northwell Health at Jones Beach Theater
+Location: Wantagh, United States
+Date: 07/22/2020
+--------------------------------------------------------------------------------
+Venue: Saratoga Performing Arts Center
+Location: Saratoga Springs, United States
+Date: 07/24/2020
+--------------------------------------------------------------------------------
+Venue: Xfinity Center
+Location: Mansfield, United States
+Date: 07/25/2020
+--------------------------------------------------------------------------------
+Venue: Mohegan Sun Arena
+Location: Uncasville, United States
+Date: 07/26/2020
+--------------------------------------------------------------------------------
+Venue: PNC Bank Arts Center
+Location: Holmdel, United States
+Date: 07/28/2020
+--------------------------------------------------------------------------------
+Venue: Jiffy Lube Live
+Location: Bristow, United States
+Date: 07/29/2020
+================ Movie Info ================
+Title: Mr. Nobody
+Release Year: 2009
+IMdB Rating: 7.8
+Country: Belgium, Germany, Canada, France, UK, Luxembourg
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Rotten Tomatoes Rating: [object Object]
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/mr-nobody/
+==================THE END=================
+-----------------------
+If you haven't watched 'Mr. Nobody,' then you should: http://www.imdb.com/title/tt0485947/
+It's on Netflix!
+It stars the one and only Rich Hosek!

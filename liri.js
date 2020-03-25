@@ -150,7 +150,7 @@ function getConcert() {
       default:
     console.log("\nI'm sorry, that's not something I recognize, try one of the following commands: \n\n  1. For a random search: node liri.js do-what-it-says \n\n  2. To search a movie title: node liri.js movie-this \n\n  3. To search Spotify for a song: node liri.js spotify-this-song \n\n  4. Check out Concerts Using 'concert-this'\n");
     break;
-    //  }
+    }
    } 
    )};  
     function logIt(dataToLog) {
